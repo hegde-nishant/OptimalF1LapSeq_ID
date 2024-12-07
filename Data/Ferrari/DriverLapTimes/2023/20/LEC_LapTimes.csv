@@ -1,0 +1,2 @@
+Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,Sector1Time,Sector2Time,Sector3Time,Sector1SessionTime,Sector2SessionTime,Sector3SessionTime,SpeedI1,SpeedI2,SpeedFL,SpeedST,IsPersonalBest,Compound,TyreLife,FreshTyre,Team,LapStartTime,LapStartDate,TrackStatus,Position,Deleted,DeletedReason,FastF1Generated,IsAccurate
+0 days 01:04:23.001000,LEC,16,,1.0,1.0,,,,,,,,,,,,,False,SOFT,1.0,True,Ferrari,0 days 01:02:22.839000,2023-11-05 17:03:22.842,124,,False,,True,False

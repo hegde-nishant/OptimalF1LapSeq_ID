@@ -1,0 +1,2 @@
+Time,Driver,DriverNumber,LapTime,LapNumber,Stint,PitOutTime,PitInTime,Sector1Time,Sector2Time,Sector3Time,Sector1SessionTime,Sector2SessionTime,Sector3SessionTime,SpeedI1,SpeedI2,SpeedFL,SpeedST,IsPersonalBest,Compound,TyreLife,FreshTyre,Team,LapStartTime,LapStartDate,TrackStatus,Position,Deleted,DeletedReason,FastF1Generated,IsAccurate
+0 days 01:04:38.384000,RUS,63,,1.0,1.0,,,,,,,,,,,,,False,HARD,1.0,True,Mercedes,0 days 01:02:16.093000,2022-07-03 14:03:16.105,125,,False,,True,False

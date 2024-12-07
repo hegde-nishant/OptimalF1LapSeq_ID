@@ -1,11 +1,10 @@
 #Purpose - To collect data of all races from 2018 to 2023
-
 import fastf1 as ff1
 import pandas as pd
 import os
 
 #Load data from cache if already present
-ff1.Cache.enable_cache('/home/nhegde2/.cache/fastf1')
+ff1.Cache.enable_cache('/path/to/the/cache/')
 
 #Merc drivers over the seasons
 merc_drivers = [['HAM', 'BOT'], ['HAM', 'BOT'], ['HAM', 'BOT'], ['HAM', 'RUS'], ['HAM', 'RUS']]  #Base index considered as 2018 season
@@ -15,17 +14,18 @@ merc_driver_numbers = [[44, 77], [44, 77], [44, 77], [44, 63], [44, 63]]
 rb_drivers = [['RIC', 'VER'], ['VER', 'GAS', 'ALB'], ['VER', 'PER'], ['VER', 'PER'], ['VER', 'PER']]  #Base index consider as 2018 season
 rb_driver_numbers = [[3, 33], [33, 10, 23], [33, 11], [1, 11], [1, 11]]
 
-#Scuderia Ferarri
+#Scuderia Ferarri drivers over the season
 ferrari_drivers = [['RAI', 'VET'], ['RAI', 'VET'],['LEC', 'SAI'], ['LEC', 'SAI'], ['LEC', 'SAI']]   #Base index consider as 2018 season
 ferrari_driver_numbers = [[5, 7], [5, 16], [16, 55], [16, 55], [16, 55]]
 
-print("Data collection [START]")
+print("Data collection [START].................")
 
 seasons = [2018, 2019, 2021, 2022, 2023]
 
-merc_data_path = '/home/nhegde2/Data-Mining-Project/Data/Mercedes/'
-rb_data_path = '/home/nhegde2/Data-Mining-Project/Data/Redbull/'
-ferrari_data_path = '/home/nhegde2/Data-Mining-Project/Data/Ferrari/'
+#Paths where the csv files need to be saved
+merc_data_path = '/mercedes/save/path/'
+rb_data_path = '/redbull/save/path/'
+ferrari_data_path = '/ferrari/save/path/'
 
 print("Collecting data for Mercedes Petronas AMG formula team, Redbull Racing formula, Scuderia Ferrari formula team for seasons: ", seasons)
 
