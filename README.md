@@ -42,3 +42,11 @@ Explore the repository to discover how AI is revolutionizing motorsport analytic
 3. EDA.py - Exploratory Data Analysis on collected data. Data is explored to analyze general performance of teams and plot performance related plots. The plots are committed in the repo with the folder name - Plots
 
 4. PreProcessing.py - Code to clean, transform and feature engineer data to be sent to Self Organized Maps. The clean and transformed data present in Transformed Data folder committed to the repo.
+
+5. combining_files.py - Script combines each season's (year) race data into one combined CSV file. This data comes from the Transformed Data folder and the combined files get saved under each team's folder of Transformed Data.
+
+6. encoding_combined_files.py - Script to one-hot encode and binary encode particular features from the combined dataset above. This file is also saved under each team's folder of Transformed Data.
+
+7. soms_apriori.py - Script that includes SOMs code to find the optimal lap by generating HeatMaps and plots. These plots are saved under a newly created folder (when script runs) "plots". Second half of the code gives out association rules using Apriori, and these rules are saved under a newly created folder "association_rules".
+
+8. apriori_topk.py - Script to extract top-k association rules from entire set of rules created, using filteration criterias (can be changed according to preference).  These rules, when script runs, can be viewed under the folder "association_rules".
