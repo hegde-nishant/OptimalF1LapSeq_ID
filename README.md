@@ -1,4 +1,4 @@
-# F1_OptimalLap_Seq_ID
+# OptimalF1LapSeq_ID
 Title - F1 Optimal Lap Sequence Identification Using Self-Organizing Maps (SOMs) and Apriori Algorithm.
 
 Report - ProjectReport.pdf
