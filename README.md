@@ -31,7 +31,7 @@ This repository includes:
 Code: Implementation of SOMs and the Apriori algorithm using Python.
 Data: Example telemetry data sourced from the Fast F1 API.
 Analysis: Visualizations and insights derived from the analysis.
-Explore the repository to discover how AI is revolutionizing motorsport analytics! 🚀
+Explore the repository to discover how AI is revolutionizing motorsport analytics!
 
 
 **Files and their purpose**:
